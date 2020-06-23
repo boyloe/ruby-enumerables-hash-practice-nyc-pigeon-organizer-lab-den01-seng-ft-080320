@@ -4,7 +4,8 @@ def nyc_pigeon_organizer(data)
   data.each_with_object({}) do |(key, value), new_array|
     value.each do |inner_key , names|
       binding.pry
-    end  
+    end
+    new_array
   # binding.pry
   end
 end
